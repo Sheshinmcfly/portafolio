@@ -1,0 +1,128 @@
+/* Html */
+
+html {
+    scroll-behavior: auto !important;
+}
+
+/* Body */
+
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+
+/* Navbar */
+
+.navbar {
+    background-color: #2d0080;
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
+}
+
+.navbar-brand {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+/* Hero section */
+
+#Hero-section {
+    background-image: url(../img/hero_img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+
+#Hero-section div {
+    position: absolute;
+    bottom: 2.813rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.hero-line {
+    width: 21.563rem;
+}
+
+#Hero-section h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 4.5rem;
+}
+
+#Hero-section h1:first-child {
+    font-weight: 200;
+}
+
+#Hero-section h1:last-child {
+    font-weight: 900;
+}
+
+/* Sobre mi */
+
+#Sobre-mi {
+    font-family: 'Open sans', sans-serif;
+    line-height: 3;
+    color: #373A3C;
+}
+
+/* Mi experiencia */
+#Experiencia div h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 3.25rem;
+}
+
+#Experiencia i {
+    color: #2d0080;
+}
+
+#Experiencia div:last-child article h4:first-child {
+    font-family: 'Oswald', sans-serif;
+}
+
+#Experiencia div:last-child article h4:last-child {
+    font-family: 'Open sans', sans-serif;
+    font-weight: 300;
+}
+
+/* Mis últimos trabajos */
+
+#Trabajos {
+    background-color: #2d0080;
+    font-family: 'Oswald', sans-serif;
+}
+
+#Trabajos h1 {
+    font-size: 3.25rem;
+}
+
+#Trabajos a {
+    color: #373A3C;
+    text-decoration: none;
+}
+
+/* Contacto */
+
+#Contacto h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 3.25rem;
+}
+
+/* Footer */
+
+#Footer {
+    background-color: #2d0080;
+}
+
+#Footer h1 {
+    font-family: 'Oswald', sans-serif;
+}
+
+#Footer a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
